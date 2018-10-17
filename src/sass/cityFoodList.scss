@@ -1,0 +1,123 @@
+ul{
+  margin:0;
+  padding:0;
+}
+.goodsList{
+  // width:100%;
+  padding:0 5px 5px 5px;
+  >li{
+    margin-bottom:10px;
+    background-color:#fff;
+    padding:5px;
+  }
+  li{
+    list-style:none;
+    position:relative;
+    h2,h3{
+      margin:0;
+      font-size:16px;
+    }
+    h2{
+      padding:10px 0;
+    }
+    .List{
+      display:flex;
+      .List-left-img{
+        img{
+          display:block;
+          width:100px;
+          height:100px;
+        }
+      }
+      .List-right-text{
+        flex:1;
+        margin-left:10px;
+        padding:10px 0 0 0 ;
+        i{
+          font-style:normal;
+        }
+        h3{
+          font-size:14px;
+        }
+        .icon{
+          font-size:12px;
+          padding:0 5px;
+          color:#fc0;
+        }
+        .List-right-text-mile{
+          span{
+            display: inline-block;
+            padding:0 10px;
+          }
+          span:first-child{
+            i{
+              display: inline-block;
+              width: 45px;
+              height: 45px;
+              background:url('../img/splite/openriceicon.png') no-repeat 0 0;
+              background-position:0 -3928px;
+              transform:scale(0.6);
+              vertical-align:middle;
+            }
+          }
+          span:last-child{
+            i{
+              display: inline-block;
+              width: 45px;
+              height: 45px;
+              background:url('../img/splite/openriceicon.png') no-repeat 0 0;
+              background-position:0 -3928px;
+              transform:scale(0.6);
+              vertical-align:middle;
+            }
+          }
+        }
+      }
+    }
+    .goodsList-bt-img{
+      display:flex;
+      text-align:center;
+      box-sizing:border-box;
+      li{
+        flex:1;
+        text-align:center;
+        // width:16.666%;
+        height:16.666%;
+        padding:3px;
+        box-sizing:border-box;
+        img{
+          display:inline-block;
+          width:100%;
+          height:100%; 
+        }
+      }
+      li:last-child{
+        img{
+          margin-right:0;
+        }
+      }
+    }
+    .userCollection{
+      font-style:normal;
+      position:absolute;
+      right:10px;
+      top:10px;
+      span:first-child{
+        display:block;
+        width:20px;
+        height:20px;
+        border:1px solid #000;
+        border-radius:50%;
+        text-align:center;
+        line-height:20px;
+        i{
+          font-size:12px;
+        }
+      }
+      span:last-child{
+        font-style:normal;
+        font-size:12px;
+      }
+    }
+  }
+}
