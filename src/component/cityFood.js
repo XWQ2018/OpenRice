@@ -133,7 +133,7 @@ class cityFood extends Component {
       <Drawer
         dragToggleDistance={10}
         className="my-drawer"
-        style={{ minHeight: document.documentElement.clientHeight,display:this.state.toggle }}
+        style={{ minHeight: document.documentElement.clientHeight,display:this.state.toggle,zIndex:'99999',position:'fixed',left:0,top:0 }}
         enableDragHandle
         contentStyle={{ color: '#A6A6A6', textAlign: 'center', paddingTop: 42 }}
         sidebar={sidebar}

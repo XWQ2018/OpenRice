@@ -8,7 +8,7 @@
     .icon{
       flex:0.5;
       font-size: 20px;
-      padding: 0 30px 0 10px;
+      padding: 0 20px 0 20px;
       box-sizing:border-box;
     }
     .createUser-top-title{
@@ -19,6 +19,7 @@
   }
   .createUser-form{
     padding:5px 15px;
+    margin-bottom:10px;
     display:flex;
     .createUser-form-left{
       flex:1;
@@ -58,12 +59,16 @@
       display:inline-block;
     }
   }
+  .icon-alert{
+    padding:0 20px;
+    color:#f00;
+    font-size:14px;
+  }
   .btn-next{
     display:block;
     padding:12px;
-    width:80%;
+    width:90%;
     border:0 none;
-    background-color:rgb(197, 194, 194);
     opacity:0.6;
     font-size:18px;
     margin:0 auto;
