@@ -1,17 +1,5 @@
 import React,{Component} from 'react';
 import {render} from 'react-dom';
-<<<<<<< HEAD
-import Head from './Head';
-class cityFood extends Component{
-  constructor(){
-    super();
-    this.state={
-
-    }
-  }
-  componentDidMount(){
-    console.log(this.props)
-=======
 import '../sass/cityFood.scss';
 import { Drawer, List, NavBar, Icon,Button,NoticeBar } from 'antd-mobile';
 import {Route,Switch,withRouter} from 'react-router-dom';
@@ -67,23 +55,10 @@ class cityFood extends Component {
       this.state.city = `所有${city}`;
     }
 
->>>>>>> 更新组件
   }
   componentWillReceiveProps(props){
     
   }
-<<<<<<< HEAD
-  render(){
-    console.log(this.props.match)
-      return(
-        <div>
-
-        <div>城市热门门店</div>
-      </div>
-    )
-  }
-
-=======
   //抽屉状态改变触发该事件
   onOpenChange = (...args) => {
     // console.log(args);
@@ -179,7 +154,6 @@ class cityFood extends Component {
       </div>
     </div>);
   }
->>>>>>> 更新组件
 }
 
 export default cityFood; 

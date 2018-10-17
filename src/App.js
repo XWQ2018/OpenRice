@@ -17,10 +17,7 @@ class App extends Component {
           <Route path='/login' component={Login}></Route>
           <Route path='/createUser' component={CreateUser}></Route>
           <Route path='/cityFood' component={CityFood}></Route>
-<<<<<<< HEAD
-=======
           <Route path='/cityFoodList' component={CityFoodList}></Route>
->>>>>>> 更新组件
           <Route path='\/' component={Home} exact></Route>
           <Route path='*' component={Nofound}></Route>
         </Switch>
