@@ -81,7 +81,8 @@ class Head extends Component {
     history.push('/login')
   }
   toCity(){
-    console.log(9999)
+    let {history} = this.props;
+    history.push('/City');
   }
 
   render() {
@@ -109,7 +110,7 @@ class Head extends Component {
       <div dangerouslySetInnerHTML={{__html:octicons.grabber.toSVG()}}/>
       } 
       onLeftClick={this.onOpenChange}>
-        <p className='city' onClick={this.toCity.bind(this)}>深圳
+        <p className='city' onClick={this.toCity.bind(this)} >深圳
           <span dangerouslySetInnerHTML={{__html:octicons['triangle-down'].toSVG()}}/>
         </p>
       </NavBar>

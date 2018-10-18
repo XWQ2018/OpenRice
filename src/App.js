@@ -7,6 +7,7 @@ import CreateUser from './component/createUser';
 import CityFood from './component/cityFood';
 import Nofound from './component/Nofound';
 import CityFoodList from './component/cityFoodList';
+import City from './component/City';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route path='/createUser' component={CreateUser}></Route>
           <Route path='/cityFood' component={CityFood}></Route>
           <Route path='/cityFoodList' component={CityFoodList}></Route>
+          <Route path='/city' component={City}></Route>
           <Route path='\/' component={Home} exact></Route>
           <Route path='*' component={Nofound}></Route>
         </Switch>
